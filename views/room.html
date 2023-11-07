@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>방 목록</title>
+    <link rel="stylesheet" href="/stylesheets/room.css" />
+  </head>
+  <body>
+    <div class="cssdiv">
+      <h1>방 목록</h1>
+      <button id="create-room">방 생성</button>
+
+      <div id="room-modal">
+        <div id="room-modal-content">
+          <span id="room-modal-close">X</span>
+          <h2>방 생성</h2>
+          <input
+            type="text"
+            name="room-name"
+            id="room-name"
+            placeholder="방 이름을 입력하세요"
+          />
+          <button id="room-create-button">생성</button>
+        </div>
+      </div>
+      <ul id="room-list"></ul>
+
+      <script src="/javascript/room.js"></script>
+    </div>
+  </body>
+</html>

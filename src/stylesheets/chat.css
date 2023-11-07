@@ -1,0 +1,66 @@
+.chat-input {
+  display: inline-block;
+  vertical-align: top;
+}
+.chat {
+  list-style: none; /* 리스트 기본 스타일 제거 */
+  width: 450px;
+  height: 400px;
+  padding: 0;
+  margin: 0;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow-y: auto;
+}
+.chat-top {
+  justify-content: space-evenly;
+  width: 450px;
+  display: flex;
+  align-items: center; /* 수직 정렬 */
+}
+.chat-username,
+.chat-members {
+  width: 185px;
+  text-align: center;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+.message {
+  background-color: #fff;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+button[type="submit"] {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 22px;
+  background-color: #f8f8f8;
+}
+input[type="text"] {
+  width: 370px;
+  flex-grow: 1;
+  margin-right: 0.5rem;
+}
+
+button[type="submit"] {
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0062cc;
+  transition: 0.5s;
+}
+
+li.notice {
+  background-color: #ebf582;
+}
